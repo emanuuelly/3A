@@ -1,0 +1,70 @@
+const nomes = ["Evaldo", "Mari", "Camis"];
+
+// nomes.forEach(function (nome) {
+//  console.log(nome);
+// });
+
+// nomes.forEach((nome) => {
+//  console.log(nome);
+// });
+
+function imprimeNome(nome) {
+  console.log(nome);
+}
+
+nomes.forEach(imprimeNome);
+
+
+
+const notas = [10, 9.5, 8, 7, 6];
+
+const notasAtualizadas = notas.map((nota) => {
+  return nota + 1 >= 10 ? 10 : nota + 1;
+});
+
+
+
+const notas = [10, 9.5, 8, 7, 6];
+
+const notasAtualizadas = notas.map((nota) => {
+  return nota + 1 >= 10 ? 10 : nota + 1;
+});
+
+console.log(notasAtualizadas);
+
+
+
+const nomes = ["ana Julia", "Caio vinicius", "BIA silva"];
+
+const nomesPadronizados = nomes.map((nome) => nome.toUpperCase());
+
+
+
+
+const nome = "Alura";
+// ["A", "l", "u", "r", "a"]
+const nome = "Alura";
+let nomeMaiusculas = "";
+
+for (let i = 0; i < nome.length; i++) {
+ nomeMaiusculas += nome[i].toUpperCase()
+}
+console.log(nomeMaiusculas) //ALURA
+  const nomedoCurso = "Fundamentos de JS";
+const nomeDaPlataforma = " Alura"
+
+const nomeCompleto = nomedoCurso.concat(nomeDaPlataforma)
+console.log(nomeCompleto)  //Fundamentos de JS Alura
+
+const arrayNums = [1, 2, 3, 4]
+function multiplicaPorDez(num) {
+ return num * 10
+}
+const arraySomada = arrayNums.map(multiplicaPorDez)
+
+console.log(arraySomada)
+const arraySomada = arrayNums.map(num => num * 10)
+
+console.log(arraySomada)
+
+console.log(nomesPadronizados);
