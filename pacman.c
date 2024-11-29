@@ -736,3 +736,4 @@ void fim_de_jogo (void){
 	usleep(2000000);
 	clear();
 }
+/*mensagem que aparece quando o jogador perde a partida.*/
